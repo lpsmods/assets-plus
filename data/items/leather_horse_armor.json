@@ -1,21 +1,20 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:leather_horse_armor"
+      "identifier": "minecraft:leather_horse_armor",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
       "minecraft:armor": {
         "protection": 3,
         "texture_type": "leather"
       },
-      "minecraft:icon": {
-        "texture": "minecraft:leather_horse_armor"
-      }
+      "minecraft:icon": "minecraft:leather_horse_armor"
     }
   }
 }

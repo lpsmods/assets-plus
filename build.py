@@ -1,56 +1,41 @@
-# Compile this project as a mcpack
+"""
+Compile this project as a mcpack.
+"""
+
+import shutil
+import glob
 import os
-import zipfile
-import json
+import commentjson
 
-LOCAL = os.path.dirname(os.path.realpath(__file__))
+NAME = 'Assets Plus'
 
-includes = [
-    'manifest.json',
-    'pack_icon.png',
-    'LICENSE.md',
-    'CHANGELOG.md',
-    'README.md'
-]
+def main():
+    # Setup dist from src
+    shutil.copytree("src", "dist", dirs_exist_ok=True)
 
-def add_folder(path:str, root_path:str=None):
-    if os.path.exists(path):
-        for f in os.listdir(path):
-            full_path = os.path.join(path, f)
-            if os.path.isfile(full_path):
-                p = full_path.replace(LOCAL+'\\', '').replace('\\', '/')
-                includes.append(p) # Tmep
-            else: add_folder(full_path, root_path)
+    # Get version
+    with open('src/manifest.json', 'r') as fd:
+        manifest = commentjson.load(fd)
+        version = '.'.join([str(x) for x in manifest['header']['version']])
 
-def write_file(zip:zipfile.ZipFile, filename: str, arcname: str):
-    if filename.endswith('.json'): # Automatically minimize json
-        try:
-            with open(filename, 'r') as r:
-                temp = json.load(r)
-                data = json.dumps(temp)
-                zip.writestr(arcname, data)
-        except json.decoder.JSONDecodeError: zip.write(filename, arcname)
-    else: zip.write(filename, arcname)
+    # Copy files
+    shutil.copy('LICENSE', 'dist/LICENSE')
+    shutil.copy('CHANGELOG.md', 'dist/CHANGELOG.md')
 
-add_folder(os.path.join(LOCAL, 'models'), 'models')
-add_folder(os.path.join(LOCAL, 'textures'), 'textures')
+    # Minify all JSON
+    for file in glob.glob('dist/**/*.json',recursive=True):
+        if os.path.isfile(file):
+            with open(file, 'r') as fd:
+                data = commentjson.load(fd)
 
-# Get the filename
-filename = 'unset'
-with open(os.path.join(LOCAL, 'manifest.json'), 'r') as r:
-    data = json.load(r)
-    v = str(data['header']['version']).replace(', ', '.').replace('[', '').replace(']', '')
-    filename = 'Assets Plus RP v'+v
+            string = commentjson.dumps(data, separators=(',', ':'))
+            with open(file, 'w') as fd:
+                fd.write(string)
 
-with zipfile.ZipFile(os.path.join(LOCAL, 'dist', filename+'.zip'), 'w') as zip:
-    # zip.writestr('test.txt', 'This is a test')
-    for file in includes:
-        full_path = os.path.join(LOCAL, file)
-        write_file(zip, full_path, file)
+    # Archive dist
+    fp = f'libs/{ NAME } { version }'
+    shutil.make_archive(fp, 'zip', 'dist')
+    os.rename(fp+'.zip', fp+'.mcpack')
 
-with zipfile.ZipFile(os.path.join(LOCAL, 'dist', filename+'.mcpack'), 'w') as mcpack:
-    for file in includes:
-        full_path = os.path.join(LOCAL, file)
-        write_file(mcpack, full_path, file)
-
-print('Done!')
+if __name__ == '__main__':
+    main()

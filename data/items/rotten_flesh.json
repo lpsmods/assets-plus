@@ -1,18 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:rotten_flesh"
+      "identifier": "minecraft:rotten_flesh",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.61,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:rotten_flesh"
-      },
+      "minecraft:icon": "minecraft:rotten_flesh",
       "minecraft:chargeable": {
         "on_complete": {
           "event": "minecraft:effects"
@@ -21,7 +20,8 @@
       "minecraft:food": {
         "nutrition": 4,
         "saturation_modifier": 0.8
-      }
+      },
+      "minecraft:max_stack_size": 64
     },
     "events": {
       "minecraft:effects": {

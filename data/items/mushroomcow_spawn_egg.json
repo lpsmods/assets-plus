@@ -1,19 +1,19 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:mushroomcow_spawn_egg"
+      "identifier": "minecraft:mushroomcow_spawn_egg",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:mushroomcow"
-      },
+      "minecraft:icon": "minecraft:mushroomcow",
       "minecraft:entity_placer": {
         "entity": "minecraft:mushroomcow"
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

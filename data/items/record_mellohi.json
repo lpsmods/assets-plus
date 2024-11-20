@@ -1,17 +1,16 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:record_mellohi"
+      "identifier": "minecraft:record_mellohi",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:record_mellohi"
-      },
+      "minecraft:icon": "minecraft:record_mellohi",
       "minecraft:record": {
         "sound_event": "record.mellohi",
         "comparator_signal": 1,

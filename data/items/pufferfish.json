@@ -1,18 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:pufferfish"
+      "identifier": "minecraft:pufferfish",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.61,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:pufferfish"
-      },
+      "minecraft:icon": "minecraft:pufferfish",
       "minecraft:chargeable": {
         "on_complete": {
           "event": "minecraft:effects"
@@ -21,7 +20,8 @@
       "minecraft:food": {
         "nutrition": 1,
         "saturation_modifier": 0.2
-      }
+      },
+      "minecraft:max_stack_size": 64
     },
     "events": {
       "minecraft:effects": {

@@ -1,19 +1,18 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:enchanted_golden_apple"
+      "identifier": "minecraft:enchanted_golden_apple",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.61,
       "minecraft:foil": true,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:enchanted_golden_apple"
-      },
+      "minecraft:icon": "minecraft:enchanted_golden_apple",
       "minecraft:chargeable": {
         "on_complete": {
           "event": "minecraft:effects"
@@ -23,7 +22,8 @@
         "nutrition": 4,
         "saturation_modifier": 9.6,
         "can_always_eat": true
-      }
+      },
+      "minecraft:max_stack_size": 64
     },
     "events": {
       "minecraft:effects": {

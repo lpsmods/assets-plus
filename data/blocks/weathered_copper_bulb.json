@@ -1,0 +1,27 @@
+{
+    "type": "bulb",
+    "format_version": "1.21.10",
+    "minecraft:block": {
+      "description": {
+        "identifier": "minecraft:weathered_copper_bulb"
+      },
+      "components": {
+        
+        "tag:minecraft:non_solid": {},
+        "minecraft:light_dampening": 0,
+        "minecraft:light_emission": 8,
+        "minecraft:geometry": "missing",
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 6
+        },
+        "minecraft:destructible_by_explosion": {
+          "explosion_resistance": 3
+        },
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "minecraft:weathered_copper_bulb"
+          }
+        }
+      }
+    }
+  }

@@ -1,18 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:potion_bottle_lingering_luck"
+      "identifier": "minecraft:potion_bottle_lingering_luck",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:use_animation": "drink",
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:potion_bottle_lingering_luck"
-      }
+      "minecraft:icon": "minecraft:potion_bottle_lingering_luck"
     }
   }
 }

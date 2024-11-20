@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:flow_armor_trim_smithing_template",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": "minecraft:flow_armor_trim_smithing_template"
+    }
+  }
+}

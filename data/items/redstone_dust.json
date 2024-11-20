@@ -1,19 +1,19 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:redstone_dust"
+      "identifier": "minecraft:redstone_dust",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:redstone_dust"
-      },
+      "minecraft:icon": "minecraft:redstone_dust",
       "minecraft:block_placer": {
         "block": "minecraft:redstone"
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

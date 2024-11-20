@@ -1,0 +1,46 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "mc:template_stairs"
+    },
+    "rules": [
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 0 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "up", "cube": 1 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 0 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 1 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 0 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 1 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 0 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 1 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 0 },
+        "direction": "west"
+      }
+    ]
+  }
+}

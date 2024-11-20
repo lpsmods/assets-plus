@@ -1,22 +1,22 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:nether_wart"
+      "identifier": "minecraft:nether_wart",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:nether_wart"
-      },
+      "minecraft:icon": "minecraft:nether_wart",
       "minecraft:block_placer": {
         "block": "minecraft:nether_wart",
         "on_use": [
           "minecraft:soul_sand"
         ]
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

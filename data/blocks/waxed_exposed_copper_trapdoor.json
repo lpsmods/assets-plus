@@ -1,0 +1,28 @@
+{
+    "type": "trapdoor",
+    "format_version": "1.21.10",
+    "minecraft:block": {
+      "description": {
+        "identifier": "minecraft:waxed_exposed_copper_trapdoor"
+      },
+      "components": {
+        "tag:trapdoor": {},
+        "tag:minecraft:non_solid": {},
+        "minecraft:custom_components": ["dataplus:trapdoor"],
+        "minecraft:light_dampening": 0,
+        "minecraft:light_emission": 0,
+        "minecraft:geometry": "missing",
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 6
+        },
+        "minecraft:destructible_by_explosion": {
+          "explosion_resistance": 3
+        },
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "minecraft:exposed_copper_trapdoor"
+          }
+        }
+      }
+    }
+  }

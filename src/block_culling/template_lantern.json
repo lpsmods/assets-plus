@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "mc:template_lantern"
+    },
+    "rules": [
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 0 },
+        "direction": "down"
+      }
+    ]
+  }
+}

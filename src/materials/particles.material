@@ -1,0 +1,8 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "particles_blend_ontop:particles_blend": {
+      "depthFunc": "Always"
+    }
+  }
+}

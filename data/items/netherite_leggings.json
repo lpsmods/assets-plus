@@ -1,16 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:netherite_leggings"
+      "identifier": "minecraft:netherite_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:durability": {
         "max_durability": 555
-      },
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
       },
       "minecraft:enchantable": {
         "slot": "armor_legs",
@@ -34,9 +35,7 @@
           }
         ]
       },
-      "minecraft:icon": {
-        "texture": "minecraft:netherite_leggings"
-      }
+      "minecraft:icon": "minecraft:netherite_leggings"
     }
   }
 }

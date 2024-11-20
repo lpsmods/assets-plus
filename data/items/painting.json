@@ -1,19 +1,19 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:painting"
+      "identifier": "minecraft:painting",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:painting"
-      },
+      "minecraft:icon": "minecraft:painting",
       "minecraft:entity_placer": {
         "entity": "minecraft:painting"
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

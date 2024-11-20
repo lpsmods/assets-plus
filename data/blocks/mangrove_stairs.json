@@ -1,6 +1,6 @@
 {
   "type": "stairs",
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:block": {
     "description": {
       "identifier": "minecraft:mangrove_stairs"
@@ -8,6 +8,7 @@
     "components": {
       "tag:stairs": {},
       "tag:minecraft:non_solid": {},
+      "minecraft:custom_components": ["dataplus:stairs"],
       "minecraft:light_dampening": 0,
       "minecraft:light_emission": 0,
       "minecraft:geometry": "missing",

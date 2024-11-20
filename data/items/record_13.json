@@ -1,17 +1,16 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:record_13"
+      "identifier": "minecraft:record_13",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:record_13"
-      },
+      "minecraft:icon": "minecraft:record_13",
       "minecraft:record": {
         "sound_event": "record.13",
         "comparator_signal": 1,

@@ -1,17 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:bucket_lava"
+      "identifier": "minecraft:bucket_lava",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
+      "tag:bucket": {},
       "minecraft:max_stack_size": 1,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:bucket_lava"
-      },
+      "minecraft:icon": "minecraft:bucket_lava",
       "minecraft:block_placer": {
         "block": "minecraft:lava"
       }

@@ -1,21 +1,20 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:saddle"
+      "identifier": "minecraft:saddle",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
       "minecraft:wearable": {
         "dispensable": true,
         "slot": "slot.saddle"
       },
-      "minecraft:icon": {
-        "texture": "minecraft:saddle"
-      }
+      "minecraft:icon": "minecraft:saddle"
     }
   }
 }

@@ -1,22 +1,22 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:melon_slice"
+      "identifier": "minecraft:melon_slice",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.61,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:melon"
-      },
+      "minecraft:icon": "minecraft:melon",
       "minecraft:food": {
         "nutrition": 2,
         "saturation_modifier": 1.2
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

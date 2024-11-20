@@ -1,6 +1,6 @@
 {
   "type": "hanging_sign",
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:block": {
     "description": {
       "identifier": "minecraft:oak_hanging_sign"
@@ -10,6 +10,7 @@
       "tag:hanging_sign": {},
       "tag:text_sign": {},
       "tag:minecraft:non_solid": {},
+      "minecraft:custom_components": ["dataplus:sign"],
       "minecraft:light_dampening": 0,
       "minecraft:light_emission": 0,
       "minecraft:geometry": "missing",

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:armadillo_spawn_egg",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": "minecraft:armadillo_spawn_egg",
+      "minecraft:entity_placer": {
+        "entity": "minecraft:armadillo"
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": { "identifier": "mc:template_cauldron" },
+    "rules": [
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 0 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 2 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 3 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 1 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "up", "cube": 0 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "up", "cube": 1 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "up", "cube": 2 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "up", "cube": 3 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "up", "cube": 4 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 5 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 6 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 7 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 8 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 9 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 10 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 11 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "down", "cube": 12 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 2 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 0 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 1 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 7 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "north", "cube": 5 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 0 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 3 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 1 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 9 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "south", "cube": 11 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 1 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 11 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 12 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 8 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "east", "cube": 7 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 0 },
+        "direction": "west"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 5 },
+        "direction": "west"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 6 },
+        "direction": "west"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 10 },
+        "direction": "west"
+      },
+      {
+        "geometry_part": { "bone": "bb_main", "face": "west", "cube": 9 },
+        "direction": "west"
+      }
+    ]
+  }
+}

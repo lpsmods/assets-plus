@@ -1,0 +1,28 @@
+{
+    "type": "slab",
+    "format_version": "1.21.10",
+    "minecraft:block": {
+      "description": {
+        "identifier": "minecraft:polished_tuff_slab"
+      },
+      "components": {
+        "tag:slab": {},
+        "tag:minecraft:non_solid": {},
+        "minecraft:custom_components": ["dataplus:slab"],
+        "minecraft:light_dampening": 0,
+        "minecraft:light_emission": 0,
+        "minecraft:geometry": "missing",
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 1.5
+        },
+        "minecraft:destructible_by_explosion": {
+          "explosion_resistance": 6
+        },
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "minecraft:polished_tuff"
+          }
+        }
+      }
+    }
+  }

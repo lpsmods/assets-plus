@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "mc:template_fence"
+    },
+    "rules": [
+      {
+        "geometry_part": { "bone": "post", "face": "down", "cube": 0 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "post", "face": "up", "cube": 0 },
+        "direction": "up"
+      }
+    ]
+  }
+}

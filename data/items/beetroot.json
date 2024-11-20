@@ -1,18 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:beetroot"
+      "identifier": "minecraft:beetroot",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.61,
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:beetroot"
-      },
+      "minecraft:icon": "minecraft:beetroot",
       "minecraft:food": {
         "nutrition": 1,
         "saturation_modifier": 1.2
@@ -22,7 +21,8 @@
         "on_use": [
           "minecraft:farmland"
         ]
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

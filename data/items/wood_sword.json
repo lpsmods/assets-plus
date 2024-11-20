@@ -1,16 +1,17 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:wood_sword"
+      "identifier": "minecraft:wood_sword",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:durability": {
         "max_durability": 60
-      },
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
       },
       "minecraft:enchantable": {
         "slot": "sword",
@@ -26,9 +27,7 @@
           }
         ]
       },
-      "minecraft:icon": {
-        "texture": "minecraft:wood_sword"
-      }
+      "minecraft:icon": "minecraft:wood_sword"
     }
   }
 }

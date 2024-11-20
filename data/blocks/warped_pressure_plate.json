@@ -1,6 +1,6 @@
 {
   "type": "pressure_plate",
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:block": {
     "description": {
       "identifier": "minecraft:warped_pressure_plate"
@@ -8,6 +8,7 @@
     "components": {
       "tag:pressure_plate": {},
       "tag:minecraft:non_solid": {},
+      "minecraft:custom_components": ["dataplus:pressure_plate"],
       "minecraft:light_dampening": 0,
       "minecraft:light_emission": 0,
       "minecraft:geometry": "missing",

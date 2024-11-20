@@ -1,11 +1,13 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:block": {
     "description": {
       "identifier": "minecraft:red_candle_cake"
     },
     "components": {
       "tag:minecraft:non_solid": {},
+      "tag:candle_cake": {},
+      "minecraft:custom_components": ["dataplus:candle_cake"],
       "minecraft:light_dampening": 0,
       "minecraft:light_emission": 0,
       "minecraft:geometry": "geometry.template_cake_with_candle",

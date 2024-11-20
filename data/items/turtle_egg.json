@@ -1,19 +1,19 @@
 {
-  "format_version": "1.20.30",
+  "format_version": "1.21.10",
   "minecraft:item": {
     "description": {
-      "identifier": "minecraft:turtle_egg"
+      "identifier": "minecraft:turtle_egg",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.search"
+      }
     },
     "components": {
-      "minecraft:creative_category": {
-        "parent": "itemGroup.search"
-      },
-      "minecraft:icon": {
-        "texture": "minecraft:turtle_egg"
-      },
+      "minecraft:icon": "minecraft:turtle_egg",
       "minecraft:block_placer": {
         "block": "minecraft:turtle_egg"
-      }
+      },
+      "minecraft:max_stack_size": 64
     }
   }
 }

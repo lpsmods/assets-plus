@@ -4,7 +4,7 @@ This is a resource pack library that makes all the vanilla Minecraft block ids u
 
 ## Note
 
-> This resrouce pack libarary does not contain the vanilla minecraft assets. It will use vanilla minecraft, or the highest tier resoruce pack, textures.
+> This resource pack library does not contain the vanilla minecraft assets. It will use vanilla minecraft, or the highest tier resource pack, textures.
 
 ## Downloads
 
@@ -24,7 +24,7 @@ In your Behavior packs dependencies append the following code:
 ```json
 {
     "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
-    "version": [1, 2, 0]
+    "version": [1, 7, 0]
 }
 ```
 
@@ -36,20 +36,16 @@ My last few add-ons use vanilla Minecraft assets, but the default texture id isn
 
 ### How do I get this to work with my behavior pack?
 
-You can find information on how to add this library to yours via the [Documentation Page](https://legopitstop.github.io/Assets_Plus/)
+You can find information on how to add this library to yours via the [Documentation Page](https://docs.lpsmods.dev/assetsplus/)
 
 ### What IDs are supported?
 
-You can find a list of all texture IDs via the [Documentation Page](https://legopitstop.github.io/Assets_Plus/)
+You can find a list of all texture IDs via the [Documentation Page](https://docs.lpsmods.dev/assetsplus/)
 
 ### What do I do if I found an issue with the library?
 
-You can submit all issues and suggestions via [GitHub](https://github.com/legopitstop/Assets_Plus/issues)
+You can submit all issues and suggestions via [GitHub](https://github.com/lpsmods/Assets_Plus/issues)
 
 ### Where are the texture files inside the resource pack?
 
 The resource pack reads Minecraft's built-in textures so there is no need to add all the vanilla textures, however, this does add both debug textures from Java Edition.
-
-### Why does this have a direct link when all your other Minecraft content uses Linkvertise?
-
-I figured it would be a little bit more of a pain having to go through Linkvertise twice so to make things a bit easier I made this a direct link.

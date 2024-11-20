@@ -1,0 +1,50 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "mc:template_slab"
+    },
+    "rules": [
+      {
+        "geometry_part": { "bone": "top", "face": "up", "cube": 0 },
+        "direction": "up"
+      },
+      {
+        "geometry_part": { "bone": "top", "face": "north", "cube": 0 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "top", "face": "south", "cube": 0 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "top", "face": "east", "cube": 0 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "top", "face": "west", "cube": 0 },
+        "direction": "west"
+      },
+      {
+        "geometry_part": { "bone": "bottom", "face": "down", "cube": 0 },
+        "direction": "down"
+      },
+      {
+        "geometry_part": { "bone": "bottom", "face": "north", "cube": 0 },
+        "direction": "north"
+      },
+      {
+        "geometry_part": { "bone": "bottom", "face": "south", "cube": 0 },
+        "direction": "south"
+      },
+      {
+        "geometry_part": { "bone": "bottom", "face": "east", "cube": 0 },
+        "direction": "east"
+      },
+      {
+        "geometry_part": { "bone": "bottom", "face": "west", "cube": 0 },
+        "direction": "west"
+      }
+    ]
+  }
+}
