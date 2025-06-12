@@ -1,5 +1,9 @@
 # Assets Plus
 
+![Curseforge](https://img.shields.io/curseforge/dt/931705?logo=curseforge&label=&suffix=%20&style=for-the-badge&color=242629&labelColor=e04e14&logoColor=1c1c1c)
+![CurseForge Version](https://img.shields.io/curseforge/v/931705?style=for-the-badge)
+![CurseForge Game Versions](https://img.shields.io/curseforge/game-versions/931705?style=for-the-badge)
+
 This is a resource pack library that makes all the vanilla Minecraft block ids use better IDs. To use just add the `minecraft` namespace before the texture for example `minecraft:lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like Java Edition's debug textures
 
 ## Note
@@ -10,7 +14,8 @@ This is a resource pack library that makes all the vanilla Minecraft block ids u
 
 You can download any version via [legopitstop.weebly.com](https://legopitstop.weebly.com/assets-plus.html)
 
-- [1.20.12 - v1.5.0 (Latest)](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.5.0)
+- [1.21.44 - v1.7.0](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.7.0)
+- [1.20.12 - v1.5.0](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.5.0)
 - [1.19.80 - v1.4.0](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.4.0)
 - [1.19 - v1.3.0](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.3.0)
 - [1.19 - v1.2.0](https://www.mediafire.com/file/xhk2r1zioi9ref2/Assets_Plus_RP_v1.2.0.mcpack/file)
