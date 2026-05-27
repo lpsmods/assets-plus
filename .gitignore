@@ -4,4 +4,3 @@ dist/
 dist
 libs
 .venv
-.env
