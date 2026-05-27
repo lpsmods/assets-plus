@@ -4,15 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-# [2.0.0] (1.21.114) - unreleased
+## [2.0.1] (26.21) - 5/27/2026
+
+### General
+
+- Updated for Minecraft 26.21
+- Now supports enabling Vibrant Visuals.
+- Fixed issues with some models.
+
+## [2.0.0] (1.21.114) - 10/24/2025
 
 > NOTE: This update is NOT backwards compatible and will break old installations.
 
-## General
+### General
 
 - Updated for 1.21.114
 
-## New
+### New
 
 - Added 1.21.81 textures to `terrain_textures.json` and `item_textures.json`
 
