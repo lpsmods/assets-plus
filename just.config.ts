@@ -55,7 +55,7 @@ mcaddonTask({
 });
 
 // Only run resource-pack packaging
-task("mcpack", series("clean-local", "build", "packRP"));
+task("mcpack", series("clean-local", "packRP"));
 
 // Local Deploy
 task(
