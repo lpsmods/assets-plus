@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "lpsm_assetsplus:iron_bars"
+    },
+    "rules": [
+      {
+        "geometry_part": {
+          "bone": "north",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "east",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "south",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "west",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      }
+    ]
+  }
+}

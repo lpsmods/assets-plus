@@ -1,0 +1,24 @@
+{
+  "name": "assets_plus",
+  "private": true,
+  "devDependencies": {
+    "@minecraft/core-build-tasks": "^5.7.0",
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "eslint-plugin-minecraft-linting": "^2.0.12",
+    "prettier": "^3.8.3",
+    "source-map": "^0.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "lint": "just-scripts lint",
+    "clean": "just-scripts clean",
+    "local-deploy": "just-scripts local-deploy",
+    "mcpack": "just-scripts mcpack",
+    "enablemcloopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436",
+    "enablemcpreviewloopback": "CheckNetIsolation.exe LoopbackExempt -a -p=S-1-15-2-424268864-5579737-879501358-346833251-474568803-887069379-4040235476"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "Assets+ Add-On",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "files.associations": {
+      "*.json": "jsonc",
+    },
+  },
+}

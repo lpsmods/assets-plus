@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [2.0.0] (1.21.114) - unreleased
+
+> NOTE: This update is NOT backwards compatible and will break old installations.
+
+## General
+
+- Updated for 1.21.114
+
+## New
+
+- Added 1.21.81 textures to `terrain_textures.json` and `item_textures.json`
+
 ## [1.8.0] (1.21.50) - 12/13/2024
 
 ### General

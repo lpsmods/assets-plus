@@ -1,0 +1,389 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo4_age1",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1.5, 0, -1.5],
+              "size": [3, 16, 3],
+              "uv": {
+                "north": {
+                  "uv": [9, 0],
+                  "uv_size": [3, 16]
+                },
+                "east": {
+                  "uv": [9, 0],
+                  "uv_size": [3, 16]
+                },
+                "south": {
+                  "uv": [9, 0],
+                  "uv_size": [3, 16]
+                },
+                "west": {
+                  "uv": [9, 0],
+                  "uv_size": [3, 16]
+                },
+                "up": {
+                  "uv": [16, 3],
+                  "uv_size": [-3, -3]
+                },
+                "down": {
+                  "uv": [16, 7],
+                  "uv_size": [-3, -3]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo4_age0",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1, 0, -1],
+              "size": [2, 16, 2],
+              "uv": {
+                "north": {
+                  "uv": [9, 0],
+                  "uv_size": [2, 16]
+                },
+                "east": {
+                  "uv": [9, 0],
+                  "uv_size": [2, 16]
+                },
+                "south": {
+                  "uv": [9, 0],
+                  "uv_size": [2, 16]
+                },
+                "west": {
+                  "uv": [9, 0],
+                  "uv_size": [2, 16]
+                },
+                "up": {
+                  "uv": [15, 2],
+                  "uv_size": [-2, -2]
+                },
+                "down": {
+                  "uv": [15, 6],
+                  "uv_size": [-2, -2]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo1_age0",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1, 0, -1],
+              "size": [2, 16, 2],
+              "uv": {
+                "north": {
+                  "uv": [0, 0],
+                  "uv_size": [2, 16]
+                },
+                "east": {
+                  "uv": [0, 0],
+                  "uv_size": [2, 16]
+                },
+                "south": {
+                  "uv": [0, 0],
+                  "uv_size": [2, 16]
+                },
+                "west": {
+                  "uv": [0, 0],
+                  "uv_size": [2, 16]
+                },
+                "up": {
+                  "uv": [15, 2],
+                  "uv_size": [-2, -2]
+                },
+                "down": {
+                  "uv": [15, 6],
+                  "uv_size": [-2, -2]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo2_age0",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1, 0, -1],
+              "size": [2, 16, 2],
+              "uv": {
+                "north": {
+                  "uv": [3, 0],
+                  "uv_size": [2, 16]
+                },
+                "east": {
+                  "uv": [3, 0],
+                  "uv_size": [2, 16]
+                },
+                "south": {
+                  "uv": [3, 0],
+                  "uv_size": [2, 16]
+                },
+                "west": {
+                  "uv": [3, 0],
+                  "uv_size": [2, 16]
+                },
+                "up": {
+                  "uv": [15, 2],
+                  "uv_size": [-2, -2]
+                },
+                "down": {
+                  "uv": [15, 6],
+                  "uv_size": [-2, -2]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo1_age1",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1.5, 0, -1.5],
+              "size": [3, 16, 3],
+              "uv": {
+                "north": {
+                  "uv": [0, 0],
+                  "uv_size": [3, 16]
+                },
+                "east": {
+                  "uv": [0, 0],
+                  "uv_size": [3, 16]
+                },
+                "south": {
+                  "uv": [0, 0],
+                  "uv_size": [3, 16]
+                },
+                "west": {
+                  "uv": [0, 0],
+                  "uv_size": [3, 16]
+                },
+                "up": {
+                  "uv": [16, 3],
+                  "uv_size": [-3, -3]
+                },
+                "down": {
+                  "uv": [16, 7],
+                  "uv_size": [-3, -3]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo3_age1",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1.5, 0, -1.5],
+              "size": [3, 16, 3],
+              "uv": {
+                "north": {
+                  "uv": [6, 0],
+                  "uv_size": [3, 16]
+                },
+                "east": {
+                  "uv": [6, 0],
+                  "uv_size": [3, 16]
+                },
+                "south": {
+                  "uv": [6, 0],
+                  "uv_size": [3, 16]
+                },
+                "west": {
+                  "uv": [6, 0],
+                  "uv_size": [3, 16]
+                },
+                "up": {
+                  "uv": [16, 3],
+                  "uv_size": [-3, -3]
+                },
+                "down": {
+                  "uv": [16, 7],
+                  "uv_size": [-3, -3]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo3_age0",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1, 0, -1],
+              "size": [2, 16, 2],
+              "uv": {
+                "north": {
+                  "uv": [6, 0],
+                  "uv_size": [2, 16]
+                },
+                "east": {
+                  "uv": [6, 0],
+                  "uv_size": [2, 16]
+                },
+                "south": {
+                  "uv": [6, 0],
+                  "uv_size": [2, 16]
+                },
+                "west": {
+                  "uv": [6, 0],
+                  "uv_size": [2, 16]
+                },
+                "up": {
+                  "uv": [15, 2],
+                  "uv_size": [-2, -2]
+                },
+                "down": {
+                  "uv": [15, 6],
+                  "uv_size": [-2, -2]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus.bamboo2_age1",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-1.5, 0, -1.5],
+              "size": [3, 16, 3],
+              "uv": {
+                "north": {
+                  "uv": [3, 0],
+                  "uv_size": [3, 16]
+                },
+                "east": {
+                  "uv": [3, 0],
+                  "uv_size": [3, 16]
+                },
+                "south": {
+                  "uv": [3, 0],
+                  "uv_size": [3, 16]
+                },
+                "west": {
+                  "uv": [3, 0],
+                  "uv_size": [3, 16]
+                },
+                "up": {
+                  "uv": [16, 3],
+                  "uv_size": [-3, -3]
+                },
+                "down": {
+                  "uv": [16, 7],
+                  "uv_size": [-3, -3]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

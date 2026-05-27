@@ -1,0 +1,105 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus_rail_flat",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 1.5,
+        "visible_bounds_offset": [0, 0.25, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {
+              "origin": [-8, 1, -8],
+              "size": [16, 0, 16],
+              "uv": {
+                "up": {
+                  "uv": [16, 16],
+                  "uv_size": [-16, -16]
+                },
+                "down": {
+                  "uv": [16, 0],
+                  "uv_size": [-16, 16]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus_rail_raised_sw",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [0, 0, -7],
+          "cubes": [
+            {
+              "origin": [-8, 9, -8],
+              "size": [16, 0, 16],
+              "pivot": [-8, 9, 1],
+              "rotation": [45, 0, 0],
+              "uv": {
+                "up": {
+                  "uv": [16, 16],
+                  "uv_size": [-16, -16]
+                },
+                "down": {
+                  "uv": [16, 0],
+                  "uv_size": [-16, 16]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus_rail_raised_ne",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 3,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [0, 0, -8],
+          "cubes": [
+            {
+              "origin": [-8, 9, -8],
+              "size": [16, 0, 16],
+              "pivot": [-8, 9, 0],
+              "rotation": [-45, 0, 0],
+              "uv": {
+                "up": {
+                  "uv": [16, 16],
+                  "uv_size": [-16, -16]
+                },
+                "down": {
+                  "uv": [16, 0],
+                  "uv_size": [-16, 16]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

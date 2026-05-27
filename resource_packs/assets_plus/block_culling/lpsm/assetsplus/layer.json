@@ -1,0 +1,297 @@
+{
+  "format_version": "1.20.60",
+  "minecraft:block_culling_rules": {
+    "description": {
+      "identifier": "lpsm_assetsplus:layer"
+    },
+    "rules": [
+      // layer_1
+      {
+        "geometry_part": {
+          "bone": "layer_1",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_1",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_1",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_1",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_1",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      },
+      // layer_2
+      {
+        "geometry_part": {
+          "bone": "layer_2",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_2",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_2",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_2",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_2",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      },
+      // layer_3
+      {
+        "geometry_part": {
+          "bone": "layer_3",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_3",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_3",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_3",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_3",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      },
+      // layer_4
+      {
+        "geometry_part": {
+          "bone": "layer_4",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_4",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_4",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_4",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_4",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      },
+      // layer_5
+      {
+        "geometry_part": {
+          "bone": "layer_5",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_5",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_5",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_5",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_5",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      },
+      // layer_6
+      {
+        "geometry_part": {
+          "bone": "layer_6",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_6",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_6",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_6",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_6",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      },
+      // layer_7
+      {
+        "geometry_part": {
+          "bone": "layer_7",
+          "face": "down",
+          "cube": 0
+        },
+        "direction": "down"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_7",
+          "face": "north",
+          "cube": 0
+        },
+        "direction": "north"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_7",
+          "face": "south",
+          "cube": 0
+        },
+        "direction": "south"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_7",
+          "face": "east",
+          "cube": 0
+        },
+        "direction": "east"
+      },
+      {
+        "geometry_part": {
+          "bone": "layer_7",
+          "face": "west",
+          "cube": 0
+        },
+        "direction": "west"
+      }
+    ]
+  }
+}

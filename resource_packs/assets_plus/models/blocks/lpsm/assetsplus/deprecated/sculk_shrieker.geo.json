@@ -1,0 +1,140 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.lpsm_assetsplus_sculk_shrieker",
+        "texture_width": 16,
+        "texture_height": 16,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "bb_main",
+          "pivot": [8, 0, -8],
+          "cubes": [
+            {
+              "origin": [-8, 0, -8],
+              "size": [16, 8, 16],
+              "uv": {
+                "north": {
+                  "uv": [0, 8],
+                  "uv_size": [16, 8],
+                  "material_instance": "side"
+                },
+                "east": {
+                  "uv": [0, 8],
+                  "uv_size": [16, 8],
+                  "material_instance": "side"
+                },
+                "south": {
+                  "uv": [0, 8],
+                  "uv_size": [16, 8],
+                  "material_instance": "side"
+                },
+                "west": {
+                  "uv": [0, 8],
+                  "uv_size": [16, 8],
+                  "material_instance": "side"
+                },
+                "up": {
+                  "uv": [16, 16],
+                  "uv_size": [-16, -16],
+                  "material_instance": "up"
+                },
+                "down": {
+                  "uv": [16, 16],
+                  "uv_size": [-16, -16],
+                  "material_instance": "down"
+                }
+              }
+            },
+            {
+              "origin": [-7, 8, -7],
+              "size": [14, 7, 14],
+              "uv": {
+                "north": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7],
+                  "material_instance": "side"
+                },
+                "east": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7],
+                  "material_instance": "side"
+                },
+                "south": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7],
+                  "material_instance": "side"
+                },
+                "west": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7],
+                  "material_instance": "side"
+                },
+                "up": {
+                  "uv": [15, 15],
+                  "uv_size": [-14, -14],
+                  "material_instance": "up"
+                }
+              }
+            },
+            {
+              "origin": [-7, 14.98, -7],
+              "size": [14, 0, 14],
+              "uv": {
+                "down": {
+                  "uv": [15, 15],
+                  "uv_size": [-14, -14]
+                }
+              }
+            },
+            {
+              "origin": [-7, 8, 6.98],
+              "size": [14, 7, 0],
+              "uv": {
+                "north": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7]
+                }
+              }
+            },
+            {
+              "origin": [-7, 8, -6.98],
+              "size": [14, 7, 0],
+              "uv": {
+                "south": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7]
+                }
+              }
+            },
+            {
+              "origin": [-6.98, 8, -7],
+              "size": [0, 7, 14],
+              "uv": {
+                "west": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7]
+                }
+              }
+            },
+            {
+              "origin": [6.98, 8, -7],
+              "size": [0, 7, 14],
+              "uv": {
+                "east": {
+                  "uv": [1, 1],
+                  "uv_size": [14, 7]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

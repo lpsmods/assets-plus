@@ -1,0 +1,24 @@
+﻿pack.name=Assets+
+pack.description=Vanilla Minecraft assets, but with better id's! §8Developer: §6Legopitstop
+
+guide.common:open=Open Guide
+guide.common.blocks=Blocks
+guide.common.blocks.desc=All blocks in this Add-On!\n\n
+guide.common.blocks.example.desc=desc\n\n§lTool:§r Pickaxe\n\n§lBlast Resistance:§r 1\n\n§lHardness:§r 1\n\n§lLuminous:§r §cNo§r\n\n§lObtain:§r Generates underground at Y=0.\n\n
+
+guide.common.items=Items
+guide.common.items.desc=All items in this Add-On!\n\n
+guide.common.items.example.desc=desc\n\n§lUsage:§r Used to break stone like blocks.\n\n§lObtain:§r Crafted with Planks and Sticks.\n\n
+
+guide.common.mobs=Mobs
+guide.common.mobs.desc=All mobs in this Add-On!\n\n
+guide.common.mobs.example.desc=desc\n\n§lMob type:§r Monster\n\n§lHealth:§r 20\n\n§lBehavior:§r §cHostile§r\n\n§lDrops:§r 1-2 Rotten Flesh\n\n§lSpawning:§r Spawns underground.\n\n
+
+guide.common.recipes=Recipes
+guide.common.recipes.desc=All recipes in this Add-On!\n\n
+guide.common.recipes.example.desc=§lExample§r can be crafted with ITEM and ITEM.\n\n
+
+guide.common.changelogs=Changelogs
+guide.common.changelogs.desc=All notable changes to this Add-On will be documented here.\n\n
+
+guide.common.guide_book=Guide Book
