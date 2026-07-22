@@ -4,8 +4,8 @@
     "description": "pack.description",
     "name": "pack.name",
     "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
-    "version": "2.0.1",
-    "min_engine_version": [1, 26, 21],
+    "version": "2.0.2",
+    "min_engine_version": [1, 26, 33],
     "pack_scope": "world"
   },
   "metadata": {
@@ -18,7 +18,7 @@
       "description": "pack.description",
       "type": "resources",
       "uuid": "534ae7e1-ea6a-41aa-9525-a646f19bb87c",
-      "version": "2.0.1"
+      "version": "2.0.2"
     }
   ],
   "capabilities": ["pbr"]
